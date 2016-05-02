@@ -20,7 +20,6 @@ usage
 ],
 ```
 常用的方法：
-> 
 ``` php
 \Yii::$app->ynote->getNoteBookList(); //获取笔记本列表
 \Yii::$app->ynote->getNotePaths($notebook->path);//传入笔记本path，获取本子下的所有笔记的path
